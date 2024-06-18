@@ -1,4 +1,4 @@
-public class Main {
+public class generics {
     public static <T> void print(T value) {
         if (value instanceof Integer || value instanceof Float || value instanceof Double) {
             System.out.println("This is a Number");
